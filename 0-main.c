@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include "sort.h"
 
-/*
- * main - Entry point
+/**
+ * main - Entry point to run code
  *
  * Return: Always 0
  */
