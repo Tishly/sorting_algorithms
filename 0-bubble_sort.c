@@ -7,15 +7,14 @@
  * @size: the size of the array
  * Return: void
  */
+
 void bubble_sort(int *array, size_t size)
 {
 	size_t n, j;
 	int tmp;
 
 	for (n = 0; n < size; n++)
-	{
 		for (j = 0; j < size - n - 1; j++)
-		{
 			if (array[j] > array[j + 1])
 			{
 				tmp = array[j];
@@ -23,6 +22,4 @@ void bubble_sort(int *array, size_t size)
 				array[j + 1] = tmp;
 				print_array(array, size);
 			}
-		}
-	}
 }
