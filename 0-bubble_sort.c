@@ -5,6 +5,7 @@
  * bubble_sort - function that sorts array using Bubble sort
  * @array: pointer to array to be sorted
  * @size: the size of the array
+ *
  * Return: void
  */
 
